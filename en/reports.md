@@ -298,13 +298,6 @@ curl --location 'www.multiplicityassess.com/api/reports/participations/11954/sta
 }
 ```
 
-### Without Ideal Profile version
-#### Request
-```cURL
+## Callback
 
-```
-
-#### Response
-```json
-
-```
+Para recibir los resultados una vez terminada la prueba por un participante, suministrar el url via correo electronico para agregarlo al sistema. Los resultados de las pruebas seran enviados en formato JSON al igual que el ejemplo anterior.
